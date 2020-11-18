@@ -78,3 +78,24 @@ border-radius: 10px;
 background-color: #95C11F;
 font-size: 50px;
 }
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+
+.time_choice{
+    height: 50px;
+    color: white;
+    font-size: 45px;
+    background-color: #383d41;
+    border: none;
+    margin-top:80px!important;
+    margin-bottom:80px!important;
+}
