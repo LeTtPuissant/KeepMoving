@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Init Map & Geoloc</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwvij8EM0UKMZ-CJrmLKwQDtaJ2asj6VI&callback=initMap&libraries=&v=weekly"
+            defer></script>
+    <script type="text/javascript" src="initmap.js"></script>
+    <script type="text/javascript" src="reversegeocoding.js"></script>
+    <style type="text/css">
+        /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <p id="demo">Click sur le boutton pour voir vos coordonées:</p>
+    <button onclick="getLocation()">Montrer moi</button>
+    <script>
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }
+            else { x.innerHTML = "Geolocation n’est pas prise en charge par ce navigateur."; }
+        }
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+    <div id="map"></div>
+</body>
+</html>
