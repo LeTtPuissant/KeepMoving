@@ -51,7 +51,7 @@ body{
 }
 
 .text-principal{
-    font-size:100px;
+    font-size:80px;
 }
 
 .click{
@@ -63,8 +63,18 @@ body{
 .text-destination{
     margin: auto;
     display: block;
+    width: 100%;
+    text-align: center;
     background: #3c3a3a;
     border: none;
     color: white;
-    font-size: 25px;
+    font-size: 50px;
+}
+
+.btn{
+    width: 450px;
+height: 125px;
+border-radius: 10px;
+background-color: #95C11F;
+font-size: 50px;
 }
