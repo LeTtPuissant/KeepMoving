@@ -27,3 +27,44 @@ body{
     height: 150px;
     ;
 }
+.keep{
+    color: #BA9CCA!important;
+    font-weight: bold!important;
+    font-size:75px;
+}
+.mooving{
+    color: #8CBF42!important;
+    font-weight: bold!important;
+    font-size:65px;
+}
+
+.text-purple{
+    color: #BA9CCA!important;
+}
+
+.text-green{
+    color: #8CBF42!important;
+}
+
+.white{
+    color:#fff;
+}
+
+.text-principal{
+    font-size:100px;
+}
+
+.click{
+    margin-left: 350px !important;
+    margin-top: 200px;
+    font-size: 200px;
+}
+
+.text-destination{
+    margin: auto;
+    display: block;
+    background: #3c3a3a;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
