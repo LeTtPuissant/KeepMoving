@@ -1,20 +1,19 @@
-function ReverseGeocodeLatLng(latlng) {
-
+function getReverseGeocodingData(lat, lng) {
+    var latlng = new google.maps.LatLng(lat, lng);
+    // This is making the Geocode request
     var geocoder = new google.maps.Geocoder();
-    if (latlng !== undefined) {
-        latlng = latlng.split(',');
-        var LatLng = new google.maps.LatLng(latlng[0], latlng[1]);
-        geocoder.geocode({ location: LatLng }, function (result, status) {
-            if (status == 'success') {
-                var locationString = "";
-                $(result).each(function () {
-                    var $result = this;
-                    if ($result.types.inArray('locality') && $result.types.inArray('political')) {
-                        locationString = $result.formatted_address;
-                    }
-                });
-                return locationString;
-            }
-        });
-    }
+    geocoder.geocode({ 'latLng': latlng }, function (results, status) {
+        if (status !== google.maps.GeocoderStatus.OK) {
+            alert(status);
+        }
+        // This is checking to see if the Geoeode Status is OK before proceeding
+        if (status == google.maps.GeocoderStatus.OK) {
+            console.log(results);
+            var address = (results[0].formatted_address);
+        }
+    });
+
+    
 }
+
+    
