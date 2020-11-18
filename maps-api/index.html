@@ -3,7 +3,7 @@
 <head>
     <title>Init Map & Geoloc</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwvij8EM0UKMZ-CJrmLKwQDtaJ2asj6VI&callback=initMap&libraries=&v=weekly"
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBknv7Qowo-PhoNJcX0E0Tk6wNYlLoqCFs&callback=initMap&libraries=&v=weekly"
             defer></script>
     <script type="text/javascript" src="initmap.js"></script>
     <script type="text/javascript" src="reversegeocoding.js"></script>
@@ -25,19 +25,13 @@
 
 </head>
 <body>
-    <p id="demo">Click sur le boutton pour voir vos coordonées:</p>
-    <button onclick="getLocation()">Montrer moi</button>
+
     <script>
-        var x = document.getElementById("demo");
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
-            }
-            else { x.innerHTML = "Geolocation n’est pas prise en charge par ce navigateur."; }
-        }
-        function showPosition(position) {
-            x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
-        }
+        navigator.geolocation.getCurrentPosition(function (pos) {
+
+            getReverseGeocodingData(pos.coords.latitude, pos.coords.longitude)
+        })
+
     </script>
     <div id="map"></div>
 </body>

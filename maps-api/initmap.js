@@ -32,6 +32,6 @@ function initMap(location) {
 
             });
 
-           // console.log(ReverseGeocodeLatLng(LatLong));
+    
 
         }
