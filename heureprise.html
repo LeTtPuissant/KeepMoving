@@ -28,30 +28,34 @@
         </div>
    </div>
    <hr style="border-top: 2px solid #98999a!important; width:50%">
+   
    <div class="row">
-        <div class="col-12">
-            <img  class="img-responsive d-block mx-auto " style="margin-top:80px" src="images/hour.png" style="position:absolute" height="150px">
+        <div class="col-12 mt-5">
+            <label for="appt" class="white text-center" style="font-size:40px">Choisissez l'heure de la prise en charge :</label>
         </div>
+        <br>
         <div class="col-12">
-                <img  class="img-responsive d-block mx-auto " style="margin-top:180px" src="images/micro.png" style="position:absolute" height="250px">
-                <img id="start-record-btn" class="img-responsive d-block mx-auto " style="margin-top:-360px" src="images/btn-2.png" height="500px">
-        </div>
-        <div class="col-12">
-            <div class="input-single d-block mx-auto">
-                <textarea id="note-textarea" rows="2" class="text-destination"></textarea>
-            </div>
+            <input class="time_choice d-block mx-auto m-5" type="time" id="appt" name="appt"
+            min="09:00" max="18:00" required style="font-size:200px">
         </div>
    </div>
    <div class="row">
-    
+        <div class="col-12 mt-5">
+            <label for="appt" class="white text-center" style="font-size:40px">Choisissez le jour de la prise en charge :</label>
+        </div>
+        <br>
+        <div class="col-12 mb-3">
+            <input class="time_choice d-block mx-auto m-5" type="date" id="start" name="trip-start"
+            value="2020-11-20" min="2020-01-01" max="2021-12-31" required style="font-size:100px">
+        </div>
+    </div>  
+   <div class="row">
+    <div class="col-12 mt-5">
         <button type="button" class="btn btn-success d-block mx-auto w-75 btn">VALIDER</button>
-    
+    </div>
    </div>
 </div>
     
-
-
-
 
 
 
