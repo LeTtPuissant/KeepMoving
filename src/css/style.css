@@ -72,12 +72,49 @@ body{
 }
 
 .btn{
-    width: 450px;
+    width: 100%;
 height: 125px;
 border-radius: 10px;
 background-color: #95C11F;
 font-size: 50px;
 }
+.tna{
+    width: 100%;
+height: 125px;
+border-radius: 10px;
+background-color: #95C11F;
+font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+    .tna {
+      font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 650px) {
+    .tna{
+      font-size: 23px;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    .tna{
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 850px) {
+    .tna{
+      font-size: 27px;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .tna{
+      font-size: 30px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .tna{
+        font-size: 40px;
+    }
+  }
 
 label {
     display: block;
@@ -109,4 +146,21 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
+=======
+#version{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    
+
+}
+.versiond{
+    margin-top:100px;
+    text-align: center;
+}
+.top{
+    margin-top: 100px;
+}
+.texted h3{
+    color: white;
 }

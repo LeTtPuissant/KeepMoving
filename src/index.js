@@ -7,3 +7,10 @@ if("serviceWorker" in navigator){
         console.log(error);
     });
 }
+
+let count =1
+
+setInterval(()=>{
+    CountQueuingStrategy.innerText = count;
+    count++
+}, 1000)
