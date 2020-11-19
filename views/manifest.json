@@ -1,0 +1,23 @@
+{
+    "name": "Keep Moving",
+    "short_name": "Keep Moving",
+    "start_url": "index.html",
+    "background_color": "#3B3B3B",
+    "theme_color": "#95C11F",
+    "display": "standalone",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src" :"images/logo_keepmoove.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        
+        {
+            "src" :"images/logo_keepmoove.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+
+} 
