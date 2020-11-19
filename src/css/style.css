@@ -147,6 +147,23 @@ body {
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
+
+.reveil{
+    height: 600px;
+    width: 100%;
+    display: block;
+    margin-top: -250px;
+    text-align: center;
+    /* margin: auto; */
+    position: absolute;
+    background-color: #ffa500c7;
+    color: white;
+    font-size: 60px;
+    border: none;
+    border-radius: 20px;
+
+=======
 #version{
     font-size: 15px;
     color: white;
@@ -162,4 +179,5 @@ body {
 }
 .texted h3{
     color: white;
+>>>>>>> 19d4310197be03a33e5cf5ecb32223daaa06bc1a
 }
