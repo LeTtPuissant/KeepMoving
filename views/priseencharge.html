@@ -4,9 +4,189 @@
     <title>Keep Moving</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../public/stylesheets/style.css">
-    <link rel="manifest" href="../manifest.json">
-    <link rel="icon" type="image/png" sizes="512x512" href="../public/images/logo_keepmoove.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/logo_keepmoove.png">
+        <style>
+        body{
+    background-color: #3b3b3b;
+    }
+    .form-container{
+        padding: 20px;
+        text-align: center;
+        position: absolute;
+        top: 10vh;
+        
+
+    } 
+
+    @media only screen and (max-with:678px){
+        .form-container{
+            padding: 20px;
+            text-align: center;
+            position: absolute;
+            top: 10vh;
+            
+        
+        } 
+
+    }
+
+    .form-group img{
+        width: 150px;
+        height: 150px;
+        ;
+    }
+    .keep{
+        color: #BA9CCA!important;
+        font-weight: bold!important;
+        font-size:75px;
+    }
+    .mooving{
+        color: #8CBF42!important;
+        font-weight: bold!important;
+        font-size:65px;
+    }
+
+    .text-purple{
+        color: #BA9CCA!important;
+    }
+
+    .text-green{
+        color: #8CBF42!important;
+    }
+
+    .white{
+        color:#fff;
+    }
+
+    .text-principal{
+        font-size:80px;
+    }
+
+    .click{
+        margin-left: 350px !important;
+        margin-top: 200px;
+        font-size: 200px;
+    }
+
+    .text-destination{
+        margin: auto;
+        display: block;
+        width: 100%;
+        text-align: center;
+        background: #3c3a3a;
+        border: none;
+        color: white;
+        font-size: 50px;
+    }
+
+    .btn{
+        width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #95C11F;
+    font-size: 50px;
+    }
+    .tna{
+        width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    background-color: #95C11F;
+    font-size: 20px;
+    }
+    @media screen and (min-width: 320px) {
+        .tna {
+        font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+        }
+    }
+    @media screen and (min-width: 650px) {
+        .tna{
+        font-size: 23px;
+        }
+    }
+    @media screen and (min-width: 750px) {
+        .tna{
+        font-size: 25px;
+        }
+    }
+    @media screen and (min-width: 850px) {
+        .tna{
+        font-size: 27px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .tna{
+        font-size: 30px;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        .tna{
+            font-size: 40px;
+        }
+    }
+
+    label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }
+
+    input,
+    label {
+        margin: .4rem 0;
+    }
+
+
+    .time_choice{
+        height: 50px;
+        color: white;
+        font-size: 45px;
+        background-color: #383d41;
+        border: none;
+        margin-top:80px!important;
+        margin-bottom:80px!important;
+    }
+
+    #map {
+        height: 100%;
+    }
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .reveil{
+        height: 600px;
+        width: 100%;
+        display: block;
+        margin-top: -250px;
+        text-align: center;
+        /* margin: auto; */
+        position: absolute;
+        background-color: #ffa500c7;
+        color: white;
+        font-size: 60px;
+        border: none;
+        border-radius: 20px;
+    } 
+
+    #version{
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+    .versiond{
+        margin-top:100px;
+        text-align: center;
+    }
+    .top{
+        margin-top: 100px;
+    }
+    .texted h3{
+        color: white;
+    }
+
+    </style>
 </head>
 <body>
 <div class="container-fluid">
@@ -51,7 +231,7 @@
         
     </div>
         <div class="col-12 d-block mx-auto text-center mt-5">
-            <a href="./tempsrestant.html" class="btn btn-success text-center" style="border-radius:15px; width:100%; height: 2.5em;margin-top:300px">VALIDER</a>
+            <a href="/workshop_keepmooving/KeepMoving/views/tempsrestant" class="btn btn-success text-center" style="border-radius:15px; width:100%; height: 2.5em;margin-top:300px">VALIDER</a>
         </div>
    </div>
 </div>
