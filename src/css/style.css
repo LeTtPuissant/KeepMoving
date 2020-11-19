@@ -72,7 +72,7 @@ body{
 }
 
 .btn{
-    width: 450px;
+    width: 100%;
 height: 125px;
 border-radius: 10px;
 background-color: #95C11F;
@@ -98,4 +98,21 @@ label {
     border: none;
     margin-top:80px!important;
     margin-bottom:80px!important;
+}
+#version{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    
+
+}
+.versiond{
+    margin-top:100px;
+    text-align: center;
+}
+.top{
+    margin-top: 100px;
+}
+.texted h3{
+    color: white;
 }
