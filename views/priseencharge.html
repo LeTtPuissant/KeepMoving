@@ -4,15 +4,16 @@
     <title>Keep Moving</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="icon" type="image/png" sizes="512x512" href="images/logo_keepmoove.png">
+    <link rel="stylesheet" href="../public/stylesheets/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="512x512" href="../public/images/logo_keepmoove.png">
 </head>
 <body>
 <div class="container-fluid">
     <div class="container-fluid">
         <div class="row">
              <div class="col-4">
-                 <img class="img-responsive ml-3 mt-3" src="images/logo_keepmoove.png" height="125px">
+                 <img class="img-responsive ml-3 mt-3" src="../public/images/logo_keepmoove.png" height="125px">
              </div>
              <div class="col-8 mt-3">
                  <span class="keep font-italic">KEEP'</span>
@@ -41,7 +42,7 @@
    <hr style="border-top: 2px solid #98999a!important; width:50%">
    <div class="row">
     <div class="col-12">
-        <img class="img-responsive d-block mx-auto " style="margin-top:110px" src="images/position.png" height="200px; width:151px;">
+        <img class="img-responsive d-block mx-auto " style="margin-top:110px" src="../public/images/position.png" height="200px; width:151px;">
     </div>
     <div class="col-12">
         <p class="white text-center m-5" style="font-size:60px" id="current_adress"></p>
@@ -50,7 +51,7 @@
         
     </div>
         <div class="col-12 d-block mx-auto text-center mt-5">
-            <a href="/workshop_keepmooving/KeepMoving/tempsrestant" class="btn btn-success text-center" style="border-radius:15px; width:100%; height: 2.5em;margin-top:300px">VALIDER</a>
+            <a href="./tempsrestant.html" class="btn btn-success text-center" style="border-radius:15px; width:100%; height: 2.5em;margin-top:300px">VALIDER</a>
         </div>
    </div>
 </div>
@@ -62,8 +63,8 @@
     <!--Javascript-->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBknv7Qowo-PhoNJcX0E0Tk6wNYlLoqCFs&callback=initMap&libraries=&v=weekly" defer></script>
-    <script type="text/javascript" src="src/js/initmap.js"></script>
-    <script type="text/javascript" src="src/js/reversegeocoding.js"></script>
+    <script type="text/javascript" src="../public/js/initmap.js"></script>
+    <script type="text/javascript" src="../public/js/reversegeocoding.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
