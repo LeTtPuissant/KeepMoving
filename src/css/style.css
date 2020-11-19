@@ -110,3 +110,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.reveil{
+    height: 600px;
+    width: 100%;
+    display: block;
+    margin-top: -250px;
+    text-align: center;
+    /* margin: auto; */
+    position: absolute;
+    background-color: #ffa500c7;
+    color: white;
+    font-size: 60px;
+    border: none;
+    border-radius: 20px;
+
+}
