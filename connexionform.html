@@ -9,33 +9,42 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" sizes="512x512" href="images/logo_keepmoove.png">
-    
+    <link rel="manifest" href="manifest.json">
     
 </head>
 <body>
-<section class="container-fluid">
-    <section class="row justify-content-center">
-        <section class ="col-12 col sm-6 col-md-3">
+<div class="container-fluid" style="margin-top:50px;">
+    <div class="row">
+        <div class="col-12">
+            <img class="img-responsive d-block mx-auto" src="images/logo_keepmoove.png" height="124px">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 d-block mx-auto text-center mt-5 texted">
+            <h3>Identifiez-vous</h3><br>
+        </div>
+            <form  class="col-6 col-md-3 d-block mx-auto text-center">
+                <div class="form-group">
+                    <div class="col-xs-4">
+                        <input type="text" size="50" style="height: 65px; font-size: 25px;" class="form-control" placeholder="prénomNOM"> 
+                   </div><br>
+                   <div class="col-xs-4">
+                       <input type="tel" size="50" style="height:65px; font-size: 25px;" class="form-control" id="exampleInputPassword1" placeholder="N° de Tel">
+                   </div><br>
+                   <button type="submit" class=" col-sm tna btn-success d-block mx-auto text-center ">CONNEXION</button>
+                </div>
+                
+            </form>
+        </div>
+</div>
+<div class="text-center versiond" >
+    <span class="keep font-italic" style="font-size: 30px;">KEEP'</span>
+    <span class="mooving" style="font-size: 30px;">Mooving</span>
+</div>
+
            
-            <form class="form-container">
-                <div class="form-group">
-                    <img src="images/logo_keepmoove.png">
-                </div>
-                <h3>Identifiez-vous</h3><br>
-                <div class="form-group">
-                 
-                  <input type="text" class="form-control"  aria-describedby="emailHelp" placeholder="prenomNOM">
-                  
-                </div>
-                <div class="form-group">
-                  
-                  <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="N de tel">
-                </div>
-                <button type="submit" class=" col sm-6 btn btn-success btn-block">VALIDER</button>
-              </form>
-        </section>
-    </section>
-</section>
+ 
+    
 
 
 

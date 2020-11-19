@@ -1,10 +1,11 @@
 {
     "name": "Keep Moving",
-    "short_name": "V.1.1.1",
-    "start_url": ".",
+    "short_name": "KM",
+    "start_url": "/kmh/KeepMooving/index.html",
     "background_color": "#3B3B3B",
-    "theme_color": "#8BC53D",
+    "theme_color": "#95C11F",
     "display": "standalone",
+    "orientation":"portrait-primary",
     "icons":[
         {
             "src" :"images/logo_keepmoove.png",
