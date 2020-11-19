@@ -136,6 +136,17 @@ label {
     margin-top:80px!important;
     margin-bottom:80px!important;
 }
+
+#map {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+=======
 #version{
     font-size: 15px;
     color: white;
