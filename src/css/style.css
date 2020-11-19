@@ -147,7 +147,6 @@ body {
     margin: 0;
     padding: 0;
 }
-<<<<<<< HEAD
 
 .reveil{
     height: 600px;
@@ -162,8 +161,7 @@ body {
     font-size: 60px;
     border: none;
     border-radius: 20px;
-
-=======
+}
 #version{
     font-size: 15px;
     color: white;
@@ -179,5 +177,4 @@ body {
 }
 .texted h3{
     color: white;
->>>>>>> 19d4310197be03a33e5cf5ecb32223daaa06bc1a
 }
